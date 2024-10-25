@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background: wheat;
+}
+
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 80%;
+    max-width: 450px;
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.login-form .form-title {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 36px; 
+    font-weight: 600;
+    margin: 20px 0px 30px;
+    color: #111;
+}
+
+.login-form .form-input {
+    margin: 10px 0px;
+}
+
+.login-form .form-input label,
+.login-form .captcha label {
+    display: block;
+    font-size: 15px;
+    color: #111;
+    margin-bottom: 5px;
+}
+
+.login-form .form-input input{
+    width: 385px;
+    padding: 5px;
+    border: 1px solid #888;
+    font-size: 15px;
+}
+
+.login-form .captcha{
+    margin: 20px 10px;
+}
+
+.login-form .captcha .preview {
+    color: #555;
+    width: 99%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 8px;
+    border: 1px dashed #888;
+    font-family: "monospace";
+}
+
+.login-form .captcha .preview span {
+    display: inline-block;
+    user-select: none;
+}
+
+.login-form .captcha .captcha-form {
+    display: flex;
+}
+
+.login-form .captcha .captcha-form input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #888;
+}
+
+.login-form .captcha .captcha-form .captcha-refresh {
+    width: 40px;
+    border: none;
+    outline: none;
+    background: #888;
+    color: #eee;
+    cursor: pointer;
+}
+
+.login-form #login-btn {
+    margin-top: -5px;
+    width: 30%;
+    padding: 10px;
+   position: fixed;
+   left: 35%;
+   text-transform: uppercase;
+   font-weight: bold;
+   border-radius: 5%;
+   cursor: pointer;
+}
+
+
+/* Forgot Password Css !!!!*/
+.forgot-password {
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.form-footer {
+    margin-top: 70px;
+    text-align: center;
+
+}
+
+.form-footer p {
+    font-size: 15px;
+}
+
+.form-footer a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+.preview {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    padding: 0px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: black;
+}
+
+.forgot-password-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 67%;
+    max-width: 450px;
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.forgot-password-form .form-title {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 20px 0px;
+    color: #111;
+}
+
+.forgot-password-form .form-input {
+    margin: 15px 0px;
+}
+
+.forgot-password-form .form-input label {
+    display: block;
+    font-size: 15px;
+    color: #111;
+    margin-bottom: 5px;
+}
+
+.forgot-password-form .form-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #888;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.forgot-password-form .form-input #reset-password-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.forgot-password-form .form-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.forgot-password-form .form-footer p {
+    font-size: 15px;
+}
+
+.forgot-password-form .form-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password-form .form-footer a:hover {
+    text-decoration: underline;
+}
+
+
+

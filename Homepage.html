@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Homepagecss.css">
+    <title>altRush</title>
+</head>
+<body id="top">
+    <!-- Navigation bar and navlinks (icons) -->
+    <div class="navbar bg-dark">
+        <div class="container">
+            <div class="mylogo">
+                <img src="altRush Logo (1).png" alt="logo" width="20%">
+            </div>
+
+            <div class="navbarlinks d-flex">
+                <div class="navlinks">
+                    <a href="#">Home</a>
+
+                   <div class="dropdown">
+                    <a href="#" class="dropbtn">Women</a>
+                    <div class="dropdown-content">
+                        <a href="Homepage(sandals).html">Sandals</a>
+                        <a href="#">Formal Shoes</a>
+                        <a href="#">Loafers</a>
+                        <a href="#">Mule</a>
+                        <a href="#">Lace Up Boots</a>
+                        <a href="#">Platform Shoes</a>
+                        <a href="#">Best Seller</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="#" class="dropbtn">Men</a>
+                    <div class="dropdown-content">
+                        <a href="#">Sandals</a>
+                        <a href="#">Formal Shoes</a>
+                        <a href="#">Loafers</a>
+                        <a href="#">Mule</a>
+                        <a href="#">Lace Up Boots</a>
+                        <a href="#">Platform Shoes</a>
+                        <a href="#">Best Seller</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="#" class="dropbtn">Kids</a>
+                    <div class="dropdown-content">
+                        <a href="#">SportStyle</a>
+                        <a href="#">Sandals</a>
+                        <a href="#">Formal</a>
+                        <a href="#">Best Seller</a>
+                    </div>
+                </div>
+                    
+                    <div class="search-container">
+                        <input type="text" placeholder="Search" class="search-input">
+                        <button class="search-button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="navbaricons">
+                    <a href="#" class="fa fa-shopping-cart"></a>
+                    <a href="#" class="fa fa-user"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Coverphoto sliding  -->
+    <div class="cover_photo" id="coverPhoto">
+        <h1 id="coverTitle">Sportstyle</h1>
+        <p id="coverDescription">Sport style shoes blend comfort and performance with a trendy aesthetic,</p>
+        <p id="coverSubDescription">making them ideal for both athletic activities and casual wear.</p> 
+    </div>
+    <script src="coverChange.js"></script>
+
+    <!-- Our Story -->
+    <div class="ourStory-section">
+        <img src="ourStorycover.jpg" alt="Image 1" class="cover-image">
+
+        <div class="transparent-container">
+            <h2>Our Story</h2>
+            <p> Step into a word where style meets comfort, and where every pair of shoes brings you closer to your best self.
+                AltRush, founded in January 2024, is more than just an e-commerce shop, it's a passion project brought to life by a group of
+                trailblazing students from Bulacan State University. </p>
+        </div>
+        <div class="Learn-more-btn">
+            <a href="#" class="Learn-more-btn">LEARN MORE</a>
+        </div>
+    </div>
+
+    <!-- 5 images categories -->
+    <div class="category-section">
+        <div class="category">
+            <img src="sportstyle.jpeg" alt="Sportstyle">
+            <h4>Sportstyle</h4>
+        </div>
+        <div class="category">
+            <img src="trail.jpeg" alt="Trailrunning">
+            <h4>Trail Running</h4>
+        </div>
+        <div class="category">
+            <img src="running.jpeg" alt="Roadrunning">
+            <h4>Road Running</h4>
+        </div>
+        <div class="category">
+            <img src="hiking.jpeg" alt="Hiking">
+            <h4>Hiking</h4>
+        </div>
+        <div class="category">
+            <img src="casual.jpeg" alt="Casual">
+            <h4>Casual</h4>
+        </div>
+    </div>
+
+    <!--Two images KIDS and LIFESTYLe  -->
+    <div class="bottom-cover-section">
+        <div class="cover-photo-item">
+            <img src="kids.jpg" alt="Cover 1">
+            <h2 class="cover-title-kids">Kids</h2>
+        </div>
+        <div class="cover-photo-item">
+            <img src="lifestyle.jpg" alt="Cover 2">
+            <h2 class="cover-title-lifestyle">Lifestyle</h2>
+        </div>
+    </div>
+
+    <!-- Best Seller Product with slider -->
+    <div class="best-sellers-container">
+        <h2 class="bestSellers">OUR BEST SELLERS</h2>        
+        <div class="best-sellers-products" style="height: 420px; position: relative;">
+            <!-- Add the left arrow button -->
+            <button class="prev" style="left: 3%;top: 50%;" onclick="scrollToLeft()">
+                <i class="fa fa-angle-left" style="font-size: 20px;" aria-hidden="true"></i>
+            </button>
+
+            <div id="product-container" style="display: flex;gap: 41px;max-width: 90%;overflow-x: hidden; height: 100%; padding: 15px">
+                <div class="product">
+                    <img src="product 1.jpeg" alt="Product 1">
+                    <h4>Product 1</h4>
+                    <p>Category: Sportstyle</p> <br>
+                    <p>Price: $50</p>
+                </div>
+                <div class="product">
+                    <img src="product 2.png" alt="Product 2">
+                    <h4>Product 2</h4>
+                    <p>Category: Trail Running</p> <br>
+                    <p>Price: $60</p>
+                </div>
+                <div class="product">
+                    <img src="product 3.png" alt="Product 3">
+                    <h4>Product 3</h4>
+                    <p>Category: Road Running</p> <br>
+                    <p>Price: $70</p>
+                </div>
+                <div class="product">
+                    <img src="product 4.jpg" alt="Product 4">
+                    <h4>Product 4</h4>
+                    <p>Category: Hiking</p> <br>
+                    <p>Price: $80</p>
+                </div>
+                <div class="product">
+                    <img src="product 5.jpeg" alt="Product 5">
+                    <h4>Product 5</h4>
+                    <p>Category: Casual</p> <br>
+                    <p>Price: $90</p>
+                </div>
+                <div class="product">
+                    <img src="product 5.jpeg" alt="Product 5">
+                    <h4>Product 5</h4>
+                    <p>Category: Casual</p> <br>
+                    <p>Price: $90</p>
+                </div>
+                <div class="product">
+                    <img src="product 5.jpeg" alt="Product 5">
+                    <h4>Product 5</h4>
+                    <p>Category: Casual</p> <br>
+                    <p>Price: $90</p>
+                </div>
+                <div class="product">
+                    <img src="product 5.jpeg" alt="Product 5">
+                    <h4>Product 5</h4>
+                    <p>Category: Casual</p> <br>
+                    <p>Price: $90</p>
+                </div>
+                <div class="product">
+                    <img src="product 4.jpg" alt="Product 4">
+                    <h4>Product 4</h4>
+                    <p>Category: Hiking</p> <br>
+                    <p>Price: $80</p>
+                </div>
+                <div class="product">
+                    <img src="product 4.jpg" alt="Product 4">
+                    <h4>Product 4</h4>
+                    <p>Category: Hiking</p> <br>
+                    <p>Price: $80</p>
+                </div>
+            </div>
+            <!-- Add the right arrow button -->
+            <button class="next" style="right: 3%;top: 50%;" onclick="scrollToRight()">
+                <i class="fa fa-angle-right" style="font-size: 20px;" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>  
+
+    <script src="homepage(prev,nextbutton).js" defer></script>
+
+    <!--hot topics 4 images  -->
+    <div class="hot-topic-container">
+        <h2 class="hot-topic-title">HOT TOPIC!</h2> 
+    <div class="hot-topic-section">
+        <div class="hot-topic">
+            <img src="hottopic1.jpg" alt="New Arrivals">
+            <h2>New Arrivals</h2>
+        </div>
+        <div class="hot-topic">
+            <img src="hottopic2.jpg" alt="Sales">
+            <h2>Sales</h2>
+        </div>
+        <div class="hot-topic">
+            <img src="hottopic3.jpg" alt="Running Essentials">
+            <h2>Running Essentials</h2>
+        </div>
+        <div class="hot-topic">
+            <img src="hottopic4.jpg" alt="Coming Soon">
+            <h2>Coming Soon</h2>
+         </div>
+        </div> 
+    </div>
+
+        <!-- 15% OFF -->
+        <div class="redbar">
+            <h2 class="Join_altrush">JOIN ALTRUSH</h2>
+            <h2 class="Off"> AND GET 15% OFF </h2>
+            <button class="signup-btn" onclick="window.location.href='SIGNUPALBERT.html'">SIGN UP FOR FREE</button>
+        </div>
+
+        <!-- Meet the Team -->
+        <section class="team">
+            <div class="center">
+                <h1>Meet The Team</h1>
+            </div>
+
+            <div class="team-content">
+                <div class="box">
+                    <img src="me.jpg">
+                    <h3>Albert John Catacutan</h3>
+                    <h5>Full-Stack Developer</h5>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/eyjcatacutan" target="_self"> <i class="fa fa-facebook"></i> </a>
+                        <a href="https://www.instagram.com/eyjcatacutannn/?hl=en" target="_self"> <i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="hans.jpg">
+                    <h3>Hans Christian Cruz</h3>
+                    <h5>Front-End Developer</h5>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/hanschristian.cruz.1" target="_self"> <i class="fa fa-facebook"></i> </a>
+                        <a href="https://www.instagram.com/ainthanscrz/?hl=en" target="_self"> <i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="resa.jpg">
+                    <h3>Resa Macale</h3>
+                    <h5>Team Leader/Back-End Developer</h5>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/profile.php?id=100014205871503" target="_self"> <i class="fa fa-facebook"></i> </a>
+                        <a href="https://www.instagram.com/yosoyyresa/?hl=en" target="_self"> <i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="ryanne.jpg">
+                    <h3>Ryanne Joy Santos</h3>
+                    <h5>Full-Stack Developer</h5>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/kalikotpuwet99" target="_self"> <i class="fa fa-facebook"></i> </a>
+                        <a href="https://www.instagram.com/santos.ayanneee/?hl=en" target="_self"> <i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <br> <br>
+         
+         <!-- Contact us -->
+          <div class="bgcontact_us">
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <input type="email" placeholder="Email Address" class="contact-input"><br><br>
+        
+                <!-- Username Input -->
+                <input type="text" placeholder="Username" class="contact-input"><br><br>
+                
+                <!-- Contact Number Input -->
+                <input type="tel" placeholder="Contact Number" class="contact-input"><br><br>
+                
+                <!-- How did you know about us? Input -->
+                <input type="text" placeholder="How did you know about us?" class="contact-input"><br><br>
+                
+                <!-- Message / Inquiry Input (Textarea for longer input) -->
+                <textarea placeholder="Message / Inquiry" class="contact-textarea"></textarea><br><br>
+                
+                <!-- Submit Button -->
+                <button class="contact-submit-btn">Submit</button>
+            </div>
+
+            <div class="contact-container2">
+                <div class="icon-text location">
+                    <!-- Location Pin Icon and Text -->
+                    <i class="fa fa-map-marker location-icon"></i>
+                    <p class="location-text">Altrush Bldg, Iba Hagonoy, Bulacan</p>
+                </div>
+                <div class="icon-text phone">
+                    <!-- Telephone Icon and Numbers -->
+                    <i class="fa fa-phone phone-icon"></i>
+                    <p class="phone-text">044 123 4567<br>0912 345 6789</p>
+                </div>
+                <div class="icon-text email">
+                    <!-- Envelope Icon and Email -->
+                    <i class="fa fa-envelope email-icon"></i>
+                    <p class="email-text">altRushPH@gmail.com</p>
+                </div>
+            </div>
+          </div>
+
+        <!-- Whitebar with logo -->
+        <div class="whitebar">
+            <div class="logo">
+               <a href="#top">
+                <img src="altRush Logo (1).png" alt="logo" width="20%">
+               </a>
+            </div>
+
+            <div class="info-section">
+                <div class="column">
+                    <h4>ABOUT</h4>
+                    <p>Our Story</p> <br>
+                </div>
+                <div class="column">
+                    <h4>SERVICES</h4>
+                    <p>Size Guide</p> <br>
+                    <p>Warranty</p>
+                </div>
+                <div class="column">
+                    <h4>SUPPORTS</h4>
+                    <p>Refund Policy</p> <br>
+                    <p>Term of Use</p>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="footer ">
+            <p>FOLLOW US ON</p>
+            <div class="soc">
+                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-twitter"></a>
+                <a href="" class="fa fa-instagram"></a>
+            </div>
+
+             <a href="#" class="privacy-policy">Privacy Policy</a> | <a href="#" class="terms-of-service"> Terms of Service</a> 
+            <br> <br>
+            <p>&copy; 2024 altRush. All Rights Reserved.</p>
+        </footer>
+
+        
+        
+
+</body>
+</html>
